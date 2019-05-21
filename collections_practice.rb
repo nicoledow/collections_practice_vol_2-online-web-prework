@@ -136,7 +136,7 @@ def organize_schools(schools)
   
   organized_schools_hash.each do |key, value|
     schools.each do |key2, value2|
-      binding.pry
+      if value2 == key
     end
   end
 end
