@@ -120,7 +120,7 @@ end
   }
 =end
 
-
+#method organize_schools reorganizes the school data as shown above
 def organize_schools(schools)
   organized_schools_hash = {}
   
