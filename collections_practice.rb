@@ -134,9 +134,7 @@ def organize_schools(schools)
     organized_schools_hash[value[:location]] = []
   end
   
-  organized_schools_hash.each do |key, value|
-    schools.each ddo |key_2, value_2|
-      binding.pry
-    end
+  organized_schools_hash.each do |key2, value2|
+    binding.pry
   end
 end
