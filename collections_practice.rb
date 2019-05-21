@@ -135,6 +135,8 @@ def organize_schools(schools)
   end
   
   organized_schools_hash.each do |key, value|
-    binding.pry
+    schools.each do |key2, value2|
+      binding.pry
+    end
   end
 end
