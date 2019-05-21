@@ -135,9 +135,9 @@ def organize_schools(schools)
   end
   
   organized_schools_hash.each do |key, value|
-    schools.each do |key2, value2|
-      if value2 == key
-        value << 
+    schools.each do |key_2, value_2|
+      if value_2 == key
+        value << key_2
       end
     end
   end
