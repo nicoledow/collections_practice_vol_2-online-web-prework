@@ -135,4 +135,8 @@ def organize_schools(schools)
   end
   
   organized_schools_hash.each do |key, value|
+    schools.each ddo |key_2, value_2|
+      binding.pry
+    end
+  end
 end
